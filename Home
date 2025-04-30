@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XSCAPADES - Home</title>
+	<!-- style sheet link -->
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="logo"><a><img src="Logo.png" width="300" height="250"/></a></div>
+
+<div id="navbar"> <!--This is the navigation bar for the other pages--!>
+	
+	
+	<table>
+	<td><a href="Home-P240109.html">Home</a></td>
+	<td><a href="Skating.html">Skating</a></td>
+	<td><a href="Skiing.html">Skiing</a></td>
+	<td><a href="Snowboarding.html">Snowboarding</a></td>
+	<td><a href="Contact.html">Contact</a></td>
+	</table>
+	
+	</div>
+	
+<!-- website content below -->
+
+
+<div class="p.solid">
+<h1><u>Welcome</u></h1>
+<p class="solid">Welcome to the Xscapade Scotland website. 
+<br>We are a winter sports centre based in the Highlands of Scotland. 
+<br>In this site you will find details of our Ski, Snowboard and Skating facilities and other services we provide.
+<br>You will also find our contact details including our address and interactive map. 
+<br>We have also included in our website an easy to use contact form to allow you to reach out and make contact with Xscapade. 
+<br>Please feel free to look around and if you like what you see pass our link onto your friends!
+<br>We are always looking to improve our website, so please feel free to contact us and provide any recommendations towards how our website could be improved.
+</p>
+</div>
+
+<h1>Our Gallery</h1>
+
+<div class="pics"><a><img src="images/group_01.jpg" width="100%" height="100%"></a></div>
+
+<div class="pics"><a><img src="images/landscape_01.jpg" width="100%" height="100%"></a></div>
+
+<div class="pics"><a><img src="images/winter_sport_01.jfif" width="100%" height="100%"></a></div>
+
+<div class="pics"><a><img src="images/winter_sport_02.jfif" width="100%" height="100%"></a></div>
+
+<div class="video"><a><video width="950" controls>
+	<source src="images/slalom.mp4" type="video/mp4">
+	Your Browser does not support this HTML5 video.
+</video></a></div>
+
+</body>
+<footer>
+<div id="navbar"> <!--This is the navigation bar for the other pages--!>
+	
+	
+	<table>
+	<td><a href="Home.html">Home</a></td>
+	<td><a href="Skating.html">Skating</a></td>
+	<td><a href="Skiing.html">Skiing</a></td>
+	<td><a href="Snowboarding.html">Snowboarding</a></td>
+	<td><a href="Contact.html">Contact</a></td>
+	</table>
+	
+	</div>
+</footer>
+</html>
