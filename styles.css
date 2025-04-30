@@ -1,0 +1,133 @@
+/* 
+#4F6D7A Payne's Grey
+#C0D6DF Columbia Blue
+#DBE9EE Alice Blue
+#4A6FA5 True Blue
+#166088 Lapis Lazuli
+*/
+
+
+body
+{
+	background-image: src('background_01.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#DBE9EE;/* Lapis Lazuli */
+}
+
+p.solid /*Style for paragraph borders*/
+{
+	border-style: solid;
+	border-color: #166088; /*Lapis Lazuli*/
+}
+h1 /*Style for heading 1*/
+{
+	font-size:350%;
+	text-align: center;
+	font-family: "Boldonse", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #4A6FA5; /*True Blue*/
+}
+h3
+{
+	font-size:180%;
+	text-align: center;
+	font-family: "Boldonse", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #4A6FA5; /*True Blue*/
+}
+p /*Style for all paragraphs*/
+{
+	font-size:135%;
+	text-align: center;
+	padding: 30px;
+	font-family: "Boldonse", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color:#4F6D7A; /*Payne's Grey*/
+	margin: 0 auto;
+	width: 75%;
+	
+	
+}
+
+.logo {
+  position: relative;
+  height: 26vh; /* Adjust as needed */
+  background-color:#166088;
+}
+
+.logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+/*.logo /*logo position*/
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	background-color:#C0D6DF;
+}
+
+#navbar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	font-size:200%;
+	background-color:#C0D6DF;
+}
+
+th, td /*Table borders*/
+{
+	 border: 3px solid black;
+	border-color: #166088; /*Lapis Lazuli*/
+	border-radius: 10px;
+	padding: 5px;
+}
+table { 
+	 border-collapse: separate;
+	border-spacing: 200px 2px;
+}
+.pics
+{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+	border-color: #166088;
+	 padding: 30px;
+	
+}
+.video
+{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+	border-color: #166088;
+	 padding: 30px;
+	
+}
+
+.form
+{
+	border-style: solid;
+	border-color: #166088;
+	 padding: 30px;
+	border-width: 50%;
+	margin: 0 auto;
+	width: 35%;
+	
+}
